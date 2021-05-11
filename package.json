@@ -1,0 +1,24 @@
+{
+  "name": "@sudolabs-io/eslint-config-sudolabs",
+  "version": "1.0.0",
+  "description": "ESLint configuration for sudolabs projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudolabs-io/eslint-config-sudolabs.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig"
+  ],
+  "author": "Michal Vanko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudolabs-io/eslint-config-sudolabs/issues"
+  },
+  "homepage": "https://github.com/sudolabs-io/eslint-config-sudolabs#readme"
+}
