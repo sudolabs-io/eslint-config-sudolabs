@@ -20,5 +20,46 @@
   "bugs": {
     "url": "https://github.com/sudolabs-io/eslint-config-sudolabs/issues"
   },
-  "homepage": "https://github.com/sudolabs-io/eslint-config-sudolabs#readme"
+  "homepage": "https://github.com/sudolabs-io/eslint-config-sudolabs#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": { "optional": true },
+    "@typescript-eslint/parser": { "optional": true },
+    "eslint-config-airbnb-typescript": { "optional": true },
+    "eslint-config-prettier": { "optional": true },
+    "eslint-plugin-import":{ "optional": true },
+    "eslint-plugin-jest": { "optional": true },
+    "eslint-plugin-jsx-a11y": { "optional": true },
+    "eslint-plugin-prettier": { "optional": true },
+    "eslint-plugin-react":  { "optional": true },
+    "eslint-plugin-react-hooks": { "optional": true },
+    "eslint-plugin-simple-import-sort": { "optional": true }
+  }
 }
