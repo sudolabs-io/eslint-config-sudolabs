@@ -27,6 +27,7 @@
     "eslint": "^7.26.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -41,6 +42,7 @@
     "eslint": "^7.26.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -50,16 +52,41 @@
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": { "optional": true },
-    "@typescript-eslint/parser": { "optional": true },
-    "eslint-config-airbnb-typescript": { "optional": true },
-    "eslint-config-prettier": { "optional": true },
-    "eslint-plugin-import":{ "optional": true },
-    "eslint-plugin-jest": { "optional": true },
-    "eslint-plugin-jsx-a11y": { "optional": true },
-    "eslint-plugin-prettier": { "optional": true },
-    "eslint-plugin-react":  { "optional": true },
-    "eslint-plugin-react-hooks": { "optional": true },
-    "eslint-plugin-simple-import-sort": { "optional": true }
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-config-airbnb-typescript": {
+      "optional": true
+    },
+    "eslint-plugin-cypress": {
+      "optional": true
+    },
+    "eslint-config-prettier": {
+      "optional": true
+    },
+    "eslint-plugin-import": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-prettier": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-simple-import-sort": {
+      "optional": true
+    }
   }
 }
