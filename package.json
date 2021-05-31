@@ -1,6 +1,6 @@
 {
   "name": "@sudolabs-io/eslint-config-sudolabs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint configuration for sudolabs projects",
   "main": "index.js",
   "scripts": {
