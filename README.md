@@ -10,7 +10,7 @@ Additional configurations are provided to extend the entry level configuration w
 
 ### Dependencies
 
-All `eslint` plugins are installed as a `peerDependency` as defined in the [official _eslint_ guide on sharable configurations](https://esling.org/docs/developer-guide/shareable-configs).
+All `eslint` plugins are installed as a `peerDependency` as defined in the [official _eslint_ guide on sharable configurations](https://eslint.org/docs/developer-guide/shareable-configs).
 To install dependencies for all plugins you can simply run following command:
 
 ```bash
@@ -82,7 +82,7 @@ For simple node projects your `.eslintrc` configuration should look like this:
 This configuration needs following dependencies to be installed:
 
 ```bash
-npm i -D eslint @sudolabs-io/eslint-config-sudolabs eslint-config-airbnb eslint-plugin-import 
+npm i -D eslint @sudolabs-io/eslint-config-sudolabs eslint-config-airbnb eslint-plugin-import
 ```
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
