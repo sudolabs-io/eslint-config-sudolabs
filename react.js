@@ -10,5 +10,9 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
     'react/jsx-props-no-spreading': 0,
+    'react/jsx-wrap-multilines': [
+      'error',
+      { declaration: false, assignment: false },
+    ],
   },
 }
