@@ -33,9 +33,7 @@ For simple node projects your `.eslintrc` configuration should look like this:
 
 ```json
 {
-  "extends": [
-    "@sudolabs-io/eslint-config-sudolabs/typescript",
-  ]
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/typescript"]
 }
 ```
 
@@ -51,9 +49,7 @@ Typescript projects with React should use different entry configuration:
 
 ```json
 {
-  "extends": [
-    "@sudolabs-io/eslint-config-sudolabs/typescript-react",
-  ]
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/typescript-react"]
 }
 ```
 
@@ -73,16 +69,14 @@ For simple node projects your `.eslintrc` configuration should look like this:
 
 ```json
 {
-  "extends": [
-    "@sudolabs-io/eslint-config-sudolabs/javascript",
-  ]
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/javascript"]
 }
 ```
 
 This configuration needs following dependencies to be installed:
 
 ```bash
-npm i -D eslint @sudolabs-io/eslint-config-sudolabs eslint-config-airbnb eslint-plugin-import 
+npm i -D eslint @sudolabs-io/eslint-config-sudolabs eslint-config-airbnb eslint-plugin-import
 ```
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
@@ -91,9 +85,7 @@ Projects with React should use different entry configuration:
 
 ```json
 {
-  "extends": [
-    "@sudolabs-io/eslint-config-sudolabs/javascript-react",
-  ]
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/javascript-react"]
 }
 ```
 
@@ -140,9 +132,7 @@ Cypress `.eslintrc` configuration file should be placed within your projects `/c
 
 ```json
 {
-  "extends": [
-    "@sudolabs-io/eslint-config-sudolabs/with/cypress"
-  ]
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/with/cypress"]
 }
 ```
 
@@ -163,7 +153,7 @@ To enable `prettier` with recommended rules you should **add it at the last posi
 {
   "extends": [
     "@sudolabs-io/eslint-config-sudolabs/typescript-react",
-    "@sudolabs-io/eslint-config-sudolabs/with/jest"
+    "@sudolabs-io/eslint-config-sudolabs/with/jest",
     "@sudolabs-io/eslint-config-sudolabs/with/prettier"
   ]
 }
