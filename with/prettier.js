@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier', 'plugin:prettier/recommended'],
+  extends: ['prettier'],
   rules: {
     curly: ['error', 'all'],
     'arrow-body-style': ['error', 'as-needed'],
