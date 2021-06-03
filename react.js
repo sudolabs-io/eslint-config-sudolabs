@@ -5,6 +5,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/self-closing-comp': 'error',
+    'react/static-property-placement': ['error', 'static public field'],
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.tsx'] },
