@@ -136,6 +136,17 @@ Cypress `.eslintrc` configuration file should be placed within your projects `/c
 }
 ```
 
+If you use _TypeScript_, you should use separate `tsconfig.json` for your `/cypress` folder to correctly inherit _Cypress_ typings. You will need to tell `@typescript-eslint/parser` to look for this configuration:
+
+```json
+{
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/with/cypress"],
+  "parserOptions": {
+    "project": "./cypress/tsconfig.json"
+  }
+}
+```
+
 To enable this configuration you need to install additional `peerDependecies`:
 
 ```bash
