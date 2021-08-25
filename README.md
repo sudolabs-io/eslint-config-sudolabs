@@ -40,7 +40,7 @@ For simple node projects your `.eslintrc` configuration should look like this:
 This configuration needs following dependencies to be installed:
 
 ```bash
-npm i -D eslint @sudolabs-io/eslint-config-sudolabs @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript eslint-plugin-import eslint-plugin-simple-import-sort
+npm i -D eslint @sudolabs-io/eslint-config-sudolabs @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-config-airbnb-typescript eslint-plugin-import eslint-plugin-simple-import-sort
 ```
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
@@ -56,7 +56,7 @@ Typescript projects with React should use different entry configuration:
 This configuration needs following dependencies to be installed:
 
 ```bash
-npm i -D eslint @sudolabs-io/eslint-config-sudolabs @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-typescript eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+npm i -D eslint @sudolabs-io/eslint-config-sudolabs @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-airbnb-typescript eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
@@ -155,6 +155,37 @@ npm i -D eslint-plugin-cypress
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
 
+#### lodash
+
+Many projects use `lodash` as their main utility library.
+Our configuration includes only necessary rules which should prevent wrong usage but we don't prefer usage of `lodash` over native functions.
+
+Add `lodash` configuration to `.eslintrc` configuration:
+
+```json
+{
+  "extends": ["@sudolabs-io/eslint-config-sudolabs/with/lodash"]
+}
+```
+
+Very controversial rule `lodash/import-scope` is not set as every project can be set up to support different imports for **tree-shakeable** lodash modules.
+It is recommended to specify this additional rule according to convention / project setup:
+
+```json
+{
+  "rules": {
+    "lodash/import-scope": [2, "method"],
+  }
+}
+
+To enable this configuration you need to install additional `peerDependecies`:
+
+```bash
+npm i -D eslint-plugin-lodash
+```
+
+> You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
+
 #### Prettier
 
 Most of the projects use `prettier` for formatting.
@@ -175,3 +206,6 @@ To enable this configuration you need to install additional `peerDependecies`:
 ```bash
 npm i -D eslint-plugin-prettier eslint-config-prettier
 ```
+
+> You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
+
