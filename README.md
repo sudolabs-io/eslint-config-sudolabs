@@ -1,5 +1,7 @@
 # `@sudolabs-io/eslint-config-sudolabs`
 
+![release workflow](https://github.com/sudolabs-io/eslint-config-sudolabs/actions/workflows/release.yml/badge.svg) ![npm](https://img.shields.io/npm/v/@sudolabs-io/eslint-config-sudolabs) ![npm](https://img.shields.io/npm/dm/@sudolabs-io/eslint-config-sudolabs)
+
 Our one for all `eslint-config` to use across our JavaScript/TypeScript projects
 
 ## Installation
@@ -171,7 +173,7 @@ Add `lodash` configuration to `.eslintrc` configuration:
 Very controversial rule `lodash/import-scope` is not set as every project can be set up to support different imports for **tree-shakeable** lodash modules.
 It is recommended to specify this additional rule according to convention / project setup:
 
-```json
+````json
 {
   "rules": {
     "lodash/import-scope": [2, "method"],
@@ -182,7 +184,7 @@ To enable this configuration you need to install additional `peerDependecies`:
 
 ```bash
 npm i -D eslint-plugin-lodash
-```
+````
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
 
@@ -208,4 +210,3 @@ npm i -D eslint-plugin-prettier eslint-config-prettier
 ```
 
 > You don't have to install these dependencies if you've installed all dependencies with `npx install-peerdeps --dev @sudolabs-io/eslint-config-sudolabs`
-
