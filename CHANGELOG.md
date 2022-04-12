@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/sudolabs-io/eslint-config-sudolabs/compare/v1.4.2...v1.5.0) (2022-04-12)
+
+
+### Features
+
+* **release:** display all type of commits in changelog ([b618a50](https://github.com/sudolabs-io/eslint-config-sudolabs/commit/b618a5016421911c72d2a39390f03f1c2e79cae6))
+
 ## [1.4.2](https://github.com/sudolabs-io/eslint-config-sudolabs/compare/v1.4.1...v1.4.2) (2022-04-12)
 
 
