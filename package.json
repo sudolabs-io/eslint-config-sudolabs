@@ -135,7 +135,6 @@
       [
         "@semantic-release/commit-analyzer",
         {
-          "preset": "chore",
           "releaseRules": [
             {
               "type": "chore",
