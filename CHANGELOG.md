@@ -1,3 +1,5 @@
+## [1.5.75](https://github.com/sudolabs-io/eslint-config-sudolabs/compare/v1.5.74...v1.5.75) (2022-08-27)
+
 ## [1.5.74](https://github.com/sudolabs-io/eslint-config-sudolabs/compare/v1.5.73...v1.5.74) (2022-08-26)
 
 ## [1.5.73](https://github.com/sudolabs-io/eslint-config-sudolabs/compare/v1.5.72...v1.5.73) (2022-08-26)
