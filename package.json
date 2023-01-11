@@ -1,6 +1,6 @@
 {
   "name": "@sudolabs-io/eslint-config-sudolabs",
-  "version": "1.5.127",
+  "version": "1.5.128",
   "description": "ESLint configuration for sudolabs projects",
   "publishConfig": {
     "access": "public"
